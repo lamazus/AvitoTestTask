@@ -6,8 +6,9 @@
   <li>ChromeDriver</li>
 </ul>
 <h2>Установка и запуск</h2>
+<p>Все команды необходимо вводить в терминале, находясь в корневой директории проекта</p>
 <ol>
-  <li>В терминале, находясь в директории проекта, создать виртуальное окружение:
+  <li>Создать виртуальное окружение:
   <pre>python -m venv .</pre></li>
   <li>Активировать виртуальное окружение:
   <pre>.\Scripts\activate</pre></li>
@@ -17,3 +18,6 @@
   <pre>pytest .\tests\test_ad_card_page.py</pre></li>
   </li>
 </ol>
+<h2>Тест-кейсы</h2>
+<div>Описаны в файле excel - tests_list.xlsx. 
+  Дополнительно загружены в гугл-документы: https://docs.google.com/spreadsheets/d/1c1rcAGVtDnMwTUuH5RUvHx67f_XRSUAG/</div>
